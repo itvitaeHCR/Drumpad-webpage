@@ -1,0 +1,43 @@
+/* STYLE FOR INDEX ONLY */
+
+.main-section {
+    display: flex;
+    justify-content: center;
+}
+
+.drumpad-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.grid-container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    gap: 23px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.drumpad {
+    display: flex;
+    width: auto;
+    height: auto;
+    border-style: groove;
+    border-color: aqua;
+    border-width: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin: 20px;
+}
+
+button {
+    width: 90px;
+    height: 90px;
+    border-radius: 23px;
+}
